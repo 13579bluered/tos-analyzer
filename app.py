@@ -77,7 +77,7 @@ elif st.session_state['page'] == 1:
 
 elif st.session_state['page'] == 2:
     st.title("2단계: 중요 키워드 우선순위 선택")
-    st.write("### 💭 중요하다고 생각하는 키워드를 클릭해 주세요! (다시 누르면 취소됩니다)")
+    st.write("### 💭 중요하다고 생각하는 키워드를 순서대로 클릭해 주세요! (다시 누르면 취소됩니다)")
     
     available_keywords = [
         "위치 정보 무단 수집", "개인정보 제3자 제공", 
